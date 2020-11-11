@@ -20,6 +20,8 @@
                 <input type="text" id="lastname" name="lastname" minlength="2" maxlength="35" required>
                 <label for="age">Your Age</label>
                 <input type="number" id="age" name="age" min="21" max="120">
+                <label for="password">Your Secret Code (must be 6 alphanumeric characters)<span class="required-field">*</span></label>
+                <input type="password" id="password" name="password" pattern="[0-9a-zA-Z]{6}" title="6-Character Alphanumeric Pass Code" required>
             </div>
             <fieldset>
                 <legend>Your Contact Info</legend>
